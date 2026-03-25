@@ -9,38 +9,47 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const siteUrl = "https://no-code-creations.com";
+const ogImage =
+  "https://fe36e5d2176d85fd69e79d6769db7309.cdn.bubble.io/cdn-cgi/image/w=1200,h=630,f=auto,dpr=1,fit=contain/f1722463142203x513211604871360450/No%20Code%20Creations%20Stacked%20Logo%20Colour.png";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: {
-    default: "NoCode Creations | Web Development Agency Australia",
-    template: "%s | NoCode Creations",
+    default:
+      "Leading App Development & No Code Solutions Australia | Expert Web & Mobile Apps",
+    template: "%s | No Code Creations",
   },
   description:
-    "We build custom websites, web apps, and digital products that drive growth. No-code, AI-powered, and traditionally coded solutions for startups and businesses across Australia.",
+    "No Code Creations offers expert app development and no code solutions across Australia. Custom web and mobile apps, social media management, and digital strategy for Sydney, Melbourne, Brisbane, and beyond.",
   keywords: [
+    "app development Australia",
+    "no code Australia",
+    "no code solutions Sydney",
+    "mobile app development Melbourne",
+    "custom web apps Brisbane",
+    "Bubble developer Australia",
     "web development",
-    "web design",
-    "Australia",
-    "custom websites",
-    "web apps",
-    "no-code",
-    "AI development",
-    "startup",
     "digital agency",
   ],
   openGraph: {
-    title: "NoCode Creations | Web Development Agency Australia",
+    title:
+      "Leading App Development & No Code Solutions Australia | Expert Web & Mobile Apps",
     description:
-      "We build custom websites, web apps, and digital products that drive growth.",
-    url: "https://nocodecreations.com.au",
-    siteName: "NoCode Creations",
+      "No Code Creations specializes in end-to-end web and app solutions with expert social media management. No code platforms and digital strategies tailored to your business.",
+    url: siteUrl,
+    siteName: "No Code Creations",
     locale: "en_AU",
     type: "website",
+    images: [{ url: ogImage, width: 1200, height: 630, alt: "No Code Creations" }],
   },
   twitter: {
     card: "summary_large_image",
-    title: "NoCode Creations | Web Development Agency Australia",
+    title:
+      "Leading App Development & No Code Solutions Australia | Expert Web & Mobile Apps",
     description:
-      "We build custom websites, web apps, and digital products that drive growth.",
+      "Expert app and no code development across Australia—custom web and mobile solutions.",
+    images: [ogImage],
   },
   robots: {
     index: true,

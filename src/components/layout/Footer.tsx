@@ -5,6 +5,7 @@ const footerLinks = {
   services: [
     { href: "/services#websites", label: "Custom Websites" },
     { href: "/services#webapps", label: "Web Applications" },
+    { href: "/services#mobile", label: "Mobile Apps" },
     { href: "/services#design", label: "UI/UX Design" },
     { href: "/services#nocode", label: "No-Code Solutions" },
     { href: "/services#ai", label: "AI Solutions" },
@@ -29,20 +30,20 @@ export default function Footer() {
                 <span className="text-white font-bold text-sm">NC</span>
               </div>
               <span className="text-lg font-bold text-foreground">
-                NoCode Creations
+                No Code Creations
               </span>
             </Link>
             <p className="text-muted text-sm leading-relaxed mb-6">
-              Building custom digital products that drive growth for businesses
-              across Australia and beyond.
+              End-to-end app and web development, no code solutions, and social
+              media management for businesses across Australia.
             </p>
             <div className="space-y-3">
               <a
-                href="mailto:hello@nocodecreations.com.au"
+                href="mailto:hello@no-code-creations.com"
                 className="flex items-center gap-2 text-sm text-muted hover:text-primary transition-colors"
               >
                 <Mail size={16} />
-                hello@nocodecreations.com.au
+                hello@no-code-creations.com
               </a>
               <a
                 href="tel:+61400000000"
@@ -53,7 +54,7 @@ export default function Footer() {
               </a>
               <div className="flex items-center gap-2 text-sm text-muted">
                 <MapPin size={16} />
-                Sydney, Australia
+                Melbourne, Australia
               </div>
             </div>
           </div>
@@ -112,7 +113,7 @@ export default function Footer() {
 
         <div className="mt-12 pt-8 border-t border-border flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-sm text-muted">
-            &copy; {new Date().getFullYear()} NoCode Creations. All rights
+            &copy; {new Date().getFullYear()} No Code Creations. All rights
             reserved.
           </p>
           <div className="flex items-center gap-6">

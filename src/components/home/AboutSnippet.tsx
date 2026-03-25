@@ -27,15 +27,15 @@ export default function AboutSnippet() {
               </span>
             </h2>
             <p className="text-muted leading-relaxed mb-4">
-              NoCode Creations is an Australian web development agency that
-              partners with startups, entrepreneurs, and growing businesses to
-              build digital products that actually work. We combine no-code
-              speed, traditional engineering rigour, and AI-powered innovation.
+              No Code Creations is an Australian team focused on app development,
+              no code platforms, and web &amp; mobile experiences. We partner with
+              founders and businesses to ship products that work in the real
+              world—fast where no code fits, robust where it matters.
             </p>
             <p className="text-muted leading-relaxed mb-8">
-              Whether you need a landing page that converts or a full-scale web
-              application, our team delivers solutions tailored to your goals —
-              not cookie-cutter templates. We treat every project like our own.
+              From directories and marketplaces to investment tools and creative
+              platforms, we deliver tailored solutions plus social and growth
+              support when you need it. Every build is treated like our own.
             </p>
             <Button href="/about" variant="outline">
               Learn more about us

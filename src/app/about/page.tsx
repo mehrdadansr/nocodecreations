@@ -4,7 +4,7 @@ import AboutContent from "./AboutContent";
 export const metadata: Metadata = {
   title: "About Us",
   description:
-    "Learn about NoCode Creations — an Australian web development agency that partners with startups and businesses to build digital products that drive growth.",
+    "Learn about No Code Creations — Australian experts in app development, no code platforms, and web & mobile solutions for startups and growing businesses.",
 };
 
 export default function AboutPage() {

@@ -117,23 +117,20 @@ export default function AboutContent() {
               </h2>
               <div className="space-y-4 text-muted leading-relaxed">
                 <p>
-                  NoCode Creations started with a simple observation: too many
-                  great business ideas were dying because founders couldn&apos;t
-                  find a development partner who truly understood their vision —
-                  and their budget.
+                  No Code Creations started with a simple observation: too many
+                  strong ideas stalled because teams couldn&apos;t find a partner
+                  who matched their pace, budget, and need for both apps and web.
                 </p>
                 <p>
-                  Based in Australia, we set out to bridge the gap between
-                  ambitious ideas and polished digital products. We combine the
-                  speed of no-code platforms, the power of traditional
-                  engineering, and the intelligence of AI tools to deliver
-                  solutions that work — and work fast.
+                  Based in Australia, we focus on end-to-end development of web
+                  and app experiences using no code platforms like Bubble
+                  alongside modern tools when needed—plus social media and growth
+                  support so launches don&apos;t stop at the build.
                 </p>
                 <p>
-                  Today, we partner with startups, SMBs, and entrepreneurs
-                  across Australia and beyond. Whether it&apos;s a landing page
-                  that converts or a full-scale SaaS platform, we bring the same
-                  level of craft and care to every project.
+                  Today we work with startups, SMBs, and entrepreneurs across the
+                  country. From marketplaces and directories to investment and
+                  creative platforms, we bring the same care to every product.
                 </p>
               </div>
             </div>
@@ -189,7 +186,7 @@ export default function AboutContent() {
         <AnimatedSection>
           <div className="bg-gradient-to-r from-primary/10 via-accent/10 to-primary/10 rounded-2xl p-10 md:p-16 text-center">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-              Why choose NoCode Creations?
+              Why choose No Code Creations?
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10 text-left">
               <div>
@@ -212,12 +209,12 @@ export default function AboutContent() {
               </div>
               <div>
                 <h3 className="text-lg font-semibold text-foreground mb-2">
-                  Australian Based
+                  Australian team
                 </h3>
                 <p className="text-muted text-sm leading-relaxed">
-                  Real-time communication in your timezone. No overseas delays or
-                  miscommunication — just a team that&apos;s here when you need
-                  us.
+                  We work with clients across Sydney, Melbourne, Brisbane, and
+                  beyond—clear communication, local context, and availability
+                  when you need us.
                 </p>
               </div>
             </div>

@@ -210,10 +210,10 @@ export default function ContactContent() {
                     <h3 className="font-semibold text-foreground">Email</h3>
                   </div>
                   <a
-                    href="mailto:hello@nocodecreations.com.au"
+                    href="mailto:hello@no-code-creations.com"
                     className="text-muted text-sm hover:text-primary transition-colors"
                   >
-                    hello@nocodecreations.com.au
+                    hello@no-code-creations.com
                   </a>
                 </div>
 
@@ -239,7 +239,7 @@ export default function ContactContent() {
                     </div>
                     <h3 className="font-semibold text-foreground">Location</h3>
                   </div>
-                  <p className="text-muted text-sm">Sydney, NSW, Australia</p>
+                  <p className="text-muted text-sm">Melbourne, Australia</p>
                 </div>
 
                 <div className="bg-surface border border-border rounded-2xl p-6">

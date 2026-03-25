@@ -4,7 +4,7 @@ import ServicesContent from "./ServicesContent";
 export const metadata: Metadata = {
   title: "Services",
   description:
-    "Custom website development, web apps, UI/UX design, no-code solutions, AI development, growth marketing, and more. Full-service digital agency in Australia.",
+    "End-to-end web and app development, no code builds, mobile-friendly products, UI/UX, AI, growth marketing, and support — No Code Creations, Australia.",
 };
 
 export default function ServicesPage() {

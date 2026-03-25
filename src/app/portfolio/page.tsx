@@ -4,7 +4,7 @@ import PortfolioContent from "./PortfolioContent";
 export const metadata: Metadata = {
   title: "Portfolio",
   description:
-    "Explore our case studies and see how we've helped businesses across Australia grow with custom websites, web apps, and digital solutions.",
+    "See how No Code Creations turns ideas into reality — real web and app work built with no code and modern stacks for Australian businesses.",
 };
 
 export default function PortfolioPage() {

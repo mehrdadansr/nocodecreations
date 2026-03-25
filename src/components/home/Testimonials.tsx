@@ -7,7 +7,7 @@ import SectionHeading from "@/components/ui/SectionHeading";
 const testimonials = [
   {
     quote:
-      "NoCode Creations turned our rough idea into a polished product in just 8 weeks. The team was responsive, transparent, and genuinely invested in our success. Our conversion rate jumped 35% after launch.",
+      "No Code Creations turned our rough idea into a polished product in just 8 weeks. The team was responsive, transparent, and genuinely invested in our success. Our conversion rate jumped 35% after launch.",
     name: "Sarah Mitchell",
     title: "Founder & CEO",
     company: "GreenLeaf Co.",
@@ -15,7 +15,7 @@ const testimonials = [
   },
   {
     quote:
-      "We'd been burned by agencies before, but NoCode Creations was different. They delivered on time, on budget, and the AI features they integrated have saved us over 20 hours a week in manual work.",
+      "We'd been burned by agencies before, but No Code Creations was different. They delivered on time, on budget, and the AI features they integrated have saved us over 20 hours a week in manual work.",
     name: "James Chen",
     title: "CTO",
     company: "FinTrack",

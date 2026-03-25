@@ -3,6 +3,7 @@
 import {
   Globe,
   Code2,
+  Smartphone,
   Palette,
   Blocks,
   BrainCircuit,
@@ -28,6 +29,13 @@ const services = [
     description:
       "Powerful web apps built with modern frameworks to solve complex business problems.",
     href: "/services#webapps",
+  },
+  {
+    icon: Smartphone,
+    title: "Mobile apps",
+    description:
+      "App-style UX, PWAs, and no code–driven mobile experiences your customers can use on the go.",
+    href: "/services#mobile",
   },
   {
     icon: Palette,
@@ -67,7 +75,7 @@ export default function ServicesOverview() {
           <SectionHeading
             label="What We Do"
             title="Services built for growth"
-            description="From concept to launch and beyond, we provide end-to-end digital solutions tailored to your business goals."
+            description="Web and mobile apps, no code builds, design, AI, and marketing—end-to-end support from idea to scale."
           />
         </AnimatedSection>
 

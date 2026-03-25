@@ -3,6 +3,7 @@
 import {
   Globe,
   Code2,
+  Smartphone,
   Palette,
   Blocks,
   BrainCircuit,
@@ -17,6 +18,7 @@ import Button from "@/components/ui/Button";
 const iconMap: Record<string, React.ComponentType<{ className?: string }>> = {
   Globe,
   Code2,
+  Smartphone,
   Palette,
   Blocks,
   BrainCircuit,
@@ -64,6 +66,22 @@ const services = [
       "AWS",
       "Vercel",
     ],
+  },
+  {
+    id: "mobile",
+    icon: "Smartphone",
+    title: "Mobile app experiences",
+    description:
+      "Customers live on their phones. We design and ship mobile-friendly and app-store-ready experiences—often powered by no code for speed, or paired with native wrappers when you need distribution on iOS and Android.",
+    features: [
+      "Progressive web apps (PWA) and responsive app-style UX",
+      "No code mobile workflows on platforms like Bubble",
+      "App store submission support and store listing assets",
+      "Push notifications and deep links where the stack allows",
+      "Offline-first patterns when your use case needs them",
+      "Analytics and crash reporting setup",
+    ],
+    technologies: ["Bubble", "React Native", "Expo", "Figma", "Firebase"],
   },
   {
     id: "design",
@@ -215,8 +233,8 @@ export default function ServicesContent() {
               </span>
             </h1>
             <p className="mt-6 text-lg text-muted max-w-2xl mx-auto">
-              From design to development, marketing to maintenance — we&apos;re
-              your full-service digital partner.
+              Apps, web, no code, mobile, design, marketing, and support —
+              we&apos;re your end-to-end partner.
             </p>
           </div>
         </AnimatedSection>

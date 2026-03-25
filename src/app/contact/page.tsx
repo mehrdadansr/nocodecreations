@@ -4,7 +4,7 @@ import ContactContent from "./ContactContent";
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with NoCode Creations. We'd love to hear about your project. Based in Sydney, Australia — available globally.",
+    "Contact No Code Creations about your app or web project. Australia-wide — Sydney, Melbourne, Brisbane, and beyond.",
 };
 
 export default function ContactPage() {

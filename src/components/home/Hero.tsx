@@ -19,7 +19,7 @@ export default function Hero() {
           transition={{ duration: 0.8, ease: "easeOut" }}
         >
           <span className="inline-block px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-primary bg-primary/10 rounded-full border border-primary/20 mb-6">
-            Web Development Agency &mdash; Australia
+            App &amp; web development, no code &mdash; Australia
           </span>
         </motion.div>
 
@@ -29,10 +29,10 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.15, ease: "easeOut" }}
           className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight tracking-tight"
         >
-          We Build Digital Products
+          Web &amp; mobile apps,
           <br />
           <span className="bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
-            That Drive Growth
+            built with no code &amp; craft
           </span>
         </motion.h1>
 
@@ -42,8 +42,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.3, ease: "easeOut" }}
           className="mt-6 text-lg md:text-xl text-muted max-w-2xl mx-auto leading-relaxed"
         >
-          Custom websites, web apps, and AI-powered solutions for startups and
-          businesses. No templates. No shortcuts. Just results.
+          Leading app development and no code solutions for Australian
+          businesses—from MVPs on Bubble to polished web experiences and growth
+          support.
         </motion.p>
 
         <motion.div

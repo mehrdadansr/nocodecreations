@@ -43,8 +43,8 @@ export default function Navbar() {
             <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
               <span className="text-white font-bold text-sm">NC</span>
             </div>
-            <span className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
-              NoCode Creations
+              <span className="text-lg font-bold text-foreground group-hover:text-primary transition-colors">
+              No Code Creations
             </span>
           </Link>
 
