@@ -98,7 +98,7 @@ export default function Footer() {
             </p>
             <Link
               href="/get-a-quote"
-              className="inline-block px-6 py-3 text-sm font-semibold rounded-lg bg-gradient-to-r from-primary to-accent text-white hover:opacity-90 transition-opacity"
+              className="inline-block px-6 py-3 text-sm font-semibold rounded-full bg-primary text-foreground hover:bg-primary-light shadow-sm transition-colors"
             >
               Get a Quote
             </Link>

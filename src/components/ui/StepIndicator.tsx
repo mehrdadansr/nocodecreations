@@ -19,9 +19,9 @@ export default function StepIndicator({
             <div
               className={`w-10 h-10 rounded-full flex items-center justify-center text-sm font-semibold transition-all duration-300 ${
                 index < currentStep
-                  ? "bg-primary text-white"
+                  ? "bg-primary text-foreground"
                   : index === currentStep
-                    ? "bg-gradient-to-r from-primary to-accent text-white scale-110"
+                    ? "bg-gradient-to-r from-primary to-accent text-foreground scale-110"
                     : "bg-surface border border-border text-muted"
               }`}
             >

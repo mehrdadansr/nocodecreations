@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-type ButtonVariant = "primary" | "ghost" | "outline";
+type ButtonVariant = "primary" | "ghost" | "ghostDark" | "outline";
 type ButtonSize = "sm" | "md" | "lg";
 
 interface ButtonProps {
@@ -16,11 +16,13 @@ interface ButtonProps {
 
 const variantClasses: Record<ButtonVariant, string> = {
   primary:
-    "bg-gradient-to-r from-primary to-accent text-white hover:opacity-90",
+    "bg-primary text-foreground hover:bg-primary-light shadow-sm",
   ghost:
-    "bg-transparent border border-border text-foreground hover:bg-surface-light hover:border-muted",
+    "bg-transparent border border-foreground/20 text-foreground hover:bg-surface-light hover:border-foreground/30",
+  ghostDark:
+    "bg-transparent border border-inverse-text/25 text-inverse-text hover:bg-white/10 hover:border-inverse-text/40",
   outline:
-    "bg-transparent border border-primary text-primary hover:bg-primary hover:text-white",
+    "bg-transparent border border-foreground text-foreground hover:bg-foreground hover:text-primary",
 };
 
 const sizeClasses: Record<ButtonSize, string> = {
@@ -39,7 +41,7 @@ export default function Button({
   type = "button",
   disabled = false,
 }: ButtonProps) {
-  const baseClasses = `inline-flex items-center justify-center font-semibold rounded-lg transition-all duration-200 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
+  const baseClasses = `inline-flex items-center justify-center font-semibold rounded-full transition-all duration-200 cursor-pointer disabled:opacity-50 disabled:cursor-not-allowed ${variantClasses[variant]} ${sizeClasses[size]} ${className}`;
 
   if (href) {
     return (

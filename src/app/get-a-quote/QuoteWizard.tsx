@@ -223,7 +223,7 @@ export default function QuoteWizard() {
           </p>
           <Link
             href="/"
-            className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-white font-semibold hover:opacity-90 transition-opacity"
+            className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-foreground font-semibold hover:bg-primary-light shadow-sm transition-colors"
           >
             Back to Home
           </Link>
@@ -306,7 +306,7 @@ export default function QuoteWizard() {
             <button
               onClick={next}
               disabled={!canProceed()}
-              className="flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-semibold bg-gradient-to-r from-primary to-accent text-white hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity cursor-pointer"
+              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold bg-primary text-foreground hover:bg-primary-light shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
             >
               Continue <ArrowRight size={16} />
             </button>
@@ -314,7 +314,7 @@ export default function QuoteWizard() {
             <button
               onClick={handleSubmit}
               disabled={!canProceed() || loading}
-              className="flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-semibold bg-gradient-to-r from-primary to-accent text-white hover:opacity-90 disabled:opacity-50 disabled:cursor-not-allowed transition-opacity cursor-pointer"
+              className="flex items-center gap-2 px-6 py-3 rounded-full text-sm font-semibold bg-primary text-foreground hover:bg-primary-light shadow-sm transition-colors disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer"
             >
               {loading ? "Submitting..." : <>Submit Request <Send size={16} /></>}
             </button>

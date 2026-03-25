@@ -61,7 +61,7 @@ export default function Testimonials() {
                 </blockquote>
                 <div className="flex items-center gap-3">
                   <div className="w-10 h-10 rounded-full bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                    <span className="text-white text-xs font-bold">
+                    <span className="text-foreground text-xs font-bold">
                       {testimonial.avatar}
                     </span>
                   </div>

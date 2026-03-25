@@ -54,7 +54,7 @@ export default function ProcessSteps() {
             <AnimatedSection key={step.title} delay={index * 0.15}>
               <div className="relative text-center">
                 <div className="relative z-10 w-16 h-16 rounded-2xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mx-auto mb-6">
-                  <step.icon className="w-7 h-7 text-white" />
+                  <step.icon className="w-7 h-7 text-foreground" />
                 </div>
                 <span className="text-xs font-bold text-primary/60 uppercase tracking-widest">
                   Step {step.number}

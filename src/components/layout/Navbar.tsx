@@ -60,7 +60,7 @@ export default function Navbar() {
             ))}
             <Link
               href="/get-a-quote"
-              className="px-5 py-2.5 text-sm font-semibold rounded-lg bg-gradient-to-r from-primary to-accent text-white hover:opacity-90 transition-opacity"
+              className="px-5 py-2.5 text-sm font-semibold rounded-full bg-primary text-foreground hover:bg-primary-light shadow-sm transition-colors"
             >
               Get a Quote
             </Link>
@@ -98,7 +98,7 @@ export default function Navbar() {
               ))}
               <Link
                 href="/get-a-quote"
-                className="block w-full text-center px-5 py-3 text-sm font-semibold rounded-lg bg-gradient-to-r from-primary to-accent text-white hover:opacity-90 transition-opacity"
+                className="block w-full text-center px-5 py-3 text-sm font-semibold rounded-full bg-primary text-foreground hover:bg-primary-light shadow-sm transition-colors"
               >
                 Get a Quote
               </Link>

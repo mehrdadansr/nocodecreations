@@ -118,7 +118,7 @@ export default function ContactSection() {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full sm:w-auto px-8 py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-white font-semibold flex items-center justify-center gap-2 hover:opacity-90 transition-opacity disabled:opacity-50 cursor-pointer"
+                className="w-full sm:w-auto px-8 py-3 rounded-full bg-primary text-foreground font-semibold flex items-center justify-center gap-2 hover:bg-primary-light shadow-sm transition-colors disabled:opacity-50 cursor-pointer"
               >
                 {loading ? (
                   "Sending..."
