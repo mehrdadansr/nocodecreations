@@ -1,4 +1,5 @@
 import Link from "next/link";
+import SiteBrand from "@/components/layout/SiteBrand";
 import { Mail, Phone, MapPin } from "lucide-react";
 
 const footerLinks = {
@@ -25,14 +26,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
           <div className="lg:col-span-1">
-            <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
-                <span className="text-white font-bold text-sm">NC</span>
-              </div>
-              <span className="text-lg font-bold text-foreground">
-                No Code Creations
-              </span>
-            </Link>
+            <SiteBrand linkClassName="flex items-center gap-2 mb-4" />
             <p className="text-muted text-sm leading-relaxed mb-6">
               End-to-end app and web development, no code solutions, and social
               media management for businesses across Australia.

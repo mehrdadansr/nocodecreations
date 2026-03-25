@@ -15,6 +15,10 @@ const ogImage =
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
+  icons: {
+    icon: [{ url: "/images/logo.svg", type: "image/svg+xml" }],
+    apple: "/images/logo.svg",
+  },
   title: {
     default:
       "Leading App Development & No Code Solutions Australia | Expert Web & Mobile Apps",
