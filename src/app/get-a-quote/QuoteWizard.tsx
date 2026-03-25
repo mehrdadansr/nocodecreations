@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Link from "next/link";
 import { motion, AnimatePresence } from "framer-motion";
 import {
   Globe,
@@ -220,12 +221,12 @@ export default function QuoteWizard() {
             Thanks, {form.name}! We&apos;ve received your project details and
             will get back to you within 24 hours with a tailored proposal.
           </p>
-          <a
+          <Link
             href="/"
             className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-primary to-accent text-white font-semibold hover:opacity-90 transition-opacity"
           >
             Back to Home
-          </a>
+          </Link>
         </motion.div>
       </div>
     );

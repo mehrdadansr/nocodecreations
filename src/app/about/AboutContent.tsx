@@ -10,7 +10,7 @@ import {
 } from "lucide-react";
 import AnimatedSection from "@/components/ui/AnimatedSection";
 import Button from "@/components/ui/Button";
-import { motion, useInView } from "framer-motion";
+import { useInView } from "framer-motion";
 import { useRef, useEffect, useState } from "react";
 
 function AnimatedCounter({ target, suffix = "" }: { target: number; suffix?: string }) {
